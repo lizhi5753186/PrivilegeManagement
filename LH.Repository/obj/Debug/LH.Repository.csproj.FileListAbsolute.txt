@@ -1,0 +1,16 @@
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\LH.Repository.dll.config
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\LH.Repository.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\LH.Repository.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\EntityFramework.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\LH.Common.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\LH.Domain.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\LH.Common.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\LH.Domain.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\EntityFramework.xml
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\obj\Debug\LH.Repository.csprojResolveAssemblyReference.cache
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\obj\Debug\LH.Repository.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\obj\Debug\LH.Repository.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\log4net.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\log4net.xml

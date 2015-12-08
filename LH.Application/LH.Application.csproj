@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8045FBA8-D5FE-4808-82E1-9C60C08AD056}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LH.Application</RootNamespace>
+    <AssemblyName>LH.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dtos\ActionDto.cs" />
+    <Compile Include="Dtos\BaseEntityDto.cs" />
+    <Compile Include="Dtos\CreateResult.cs" />
+    <Compile Include="Dtos\DeleteResult.cs" />
+    <Compile Include="Dtos\GetResult.cs" />
+    <Compile Include="Dtos\GetResults.cs" />
+    <Compile Include="Dtos\OutputBase.cs" />
+    <Compile Include="Dtos\PageInput.cs" />
+    <Compile Include="Dtos\RoleDto.cs" />
+    <Compile Include="Dtos\RoleInput.cs" />
+    <Compile Include="Dtos\UpdateResult.cs" />
+    <Compile Include="Dtos\UserDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceContract\IPermissionService.cs" />
+    <Compile Include="ServiceContract\IRoleService.cs" />
+    <Compile Include="ServiceContract\IUserService.cs" />
+    <Compile Include="ServiceImp\PermissionService.cs" />
+    <Compile Include="ServiceImp\BaseService.cs" />
+    <Compile Include="ServiceImp\RoleService.cs" />
+    <Compile Include="ServiceImp\UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LH.Common\LH.Common.csproj">
+      <Project>{286B5E33-C874-4583-8B86-1EEED5A72E3B}</Project>
+      <Name>LH.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LH.Domain\LH.Domain.csproj">
+      <Project>{9727F775-7CED-4C33-9B7E-37C2E620C5DA}</Project>
+      <Name>LH.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LH.Repository\LH.Repository.csproj">
+      <Project>{363d906e-73c3-49b5-b12a-e9829cb87534}</Project>
+      <Name>LH.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

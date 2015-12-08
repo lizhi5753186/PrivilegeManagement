@@ -1,0 +1,5 @@
+Z:\Study\AngularJs\LH.UserManager\LH.Domain\bin\Debug\LH.Domain.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Domain\bin\Debug\LH.Domain.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Domain\obj\Debug\LH.Domain.csprojResolveAssemblyReference.cache
+Z:\Study\AngularJs\LH.UserManager\LH.Domain\obj\Debug\LH.Domain.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Domain\obj\Debug\LH.Domain.pdb

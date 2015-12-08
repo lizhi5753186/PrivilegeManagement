@@ -1,0 +1,15 @@
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\LH.Application.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\LH.Application.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\LH.Common.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\LH.Domain.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\LH.Repository.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\EntityFramework.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\LH.Common.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\LH.Domain.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\LH.Repository.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\EntityFramework.xml
+Z:\Study\AngularJs\LH.UserManager\LH.Application\obj\Debug\LH.Application.csprojResolveAssemblyReference.cache
+Z:\Study\AngularJs\LH.UserManager\LH.Application\obj\Debug\LH.Application.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Application\obj\Debug\LH.Application.pdb
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\log4net.dll
+Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\log4net.xml
