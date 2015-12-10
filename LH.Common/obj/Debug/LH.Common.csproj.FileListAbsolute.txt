@@ -7,3 +7,12 @@ Z:\Study\AngularJs\LH.UserManager\LH.Common\obj\Debug\LH.Common.dll
 Z:\Study\AngularJs\LH.UserManager\LH.Common\obj\Debug\LH.Common.pdb
 Z:\Study\AngularJs\LH.UserManager\LH.Common\bin\Debug\log4net.dll
 Z:\Study\AngularJs\LH.UserManager\LH.Common\bin\Debug\log4net.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\bin\Debug\LH.Common.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\bin\Debug\LH.Common.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\bin\Debug\LH.Domain.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\bin\Debug\log4net.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\bin\Debug\LH.Domain.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\bin\Debug\log4net.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\obj\Debug\LH.Common.csprojResolveAssemblyReference.cache
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\obj\Debug\LH.Common.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Common\obj\Debug\LH.Common.pdb

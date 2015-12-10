@@ -48,6 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201512100730416_InitialCreate.cs" />
+    <Compile Include="Migrations\201512100730416_InitialCreate.Designer.cs">
+      <DependentUpon>201512100730416_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PermissionRepository.cs" />
     <Compile Include="BaseRepository.cs" />
     <Compile Include="DBContext\UserManagerDBContext.cs" />
@@ -73,6 +78,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Mapping\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201512100730416_InitialCreate.resx">
+      <DependentUpon>201512100730416_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

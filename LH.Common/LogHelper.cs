@@ -1,8 +1,8 @@
 ﻿using log4net;
 
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 namespace LH.Common
 {
-    [assembly: log4net.Config.XmlConfigurator(Watch = true)]
     public class LogHelper
     {
         public static readonly ILog _log = LogManager.GetLogger("log4net");

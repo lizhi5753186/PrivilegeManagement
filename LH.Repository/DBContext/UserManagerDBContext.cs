@@ -19,7 +19,7 @@ namespace LH.Repository.DBContext
 
         public DbSet<Role> Roles { get; set; }
 
-        public DbSet<Permission> Actions { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
 
         public DbSet<UserRole> UserRoles { get; set; }
 

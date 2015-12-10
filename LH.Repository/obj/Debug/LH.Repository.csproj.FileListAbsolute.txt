@@ -14,3 +14,21 @@ Z:\Study\AngularJs\LH.UserManager\LH.Repository\obj\Debug\LH.Repository.dll
 Z:\Study\AngularJs\LH.UserManager\LH.Repository\obj\Debug\LH.Repository.pdb
 Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\log4net.dll
 Z:\Study\AngularJs\LH.UserManager\LH.Repository\bin\Debug\log4net.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\LH.Repository.dll.config
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\LH.Repository.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\LH.Repository.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\EntityFramework.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\LH.Common.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\LH.Domain.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\log4net.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\LH.Common.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\LH.Domain.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\EntityFramework.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\bin\Debug\log4net.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\obj\Debug\LH.Repository.csprojResolveAssemblyReference.cache
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\obj\Debug\LH.Repository.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\obj\Debug\LH.Repository.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\obj\Debug\LH.Repository.Migrations.InitialCreate.resources
+F:\Study\Front\Web API\PrivilegeManagement\LH.Repository\obj\Debug\LH.Repository.csproj.GenerateResource.Cache

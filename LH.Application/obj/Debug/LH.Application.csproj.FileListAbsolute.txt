@@ -13,3 +13,18 @@ Z:\Study\AngularJs\LH.UserManager\LH.Application\obj\Debug\LH.Application.dll
 Z:\Study\AngularJs\LH.UserManager\LH.Application\obj\Debug\LH.Application.pdb
 Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\log4net.dll
 Z:\Study\AngularJs\LH.UserManager\LH.Application\bin\Debug\log4net.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\LH.Application.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\LH.Application.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\LH.Common.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\LH.Domain.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\LH.Repository.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\log4net.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\EntityFramework.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\LH.Common.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\LH.Domain.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\LH.Repository.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\log4net.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\bin\Debug\EntityFramework.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\obj\Debug\LH.Application.csprojResolveAssemblyReference.cache
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\obj\Debug\LH.Application.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Application\obj\Debug\LH.Application.pdb
