@@ -11,7 +11,7 @@ namespace LH.Web.API.Controllers
 {
     public class UserController : ApiController
     {
-        public readonly IUserService _userService;
+        private readonly IUserService _userService;
 
         public UserController(IUserService userService)
         {

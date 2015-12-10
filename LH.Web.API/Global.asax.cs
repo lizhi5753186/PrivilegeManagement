@@ -14,7 +14,7 @@ namespace LH.Web.API
     {
         protected void Application_Start()
         {
-            AutofacExt.InitAutofac();
+            Bootstrapper.InitAutofac();
 
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);

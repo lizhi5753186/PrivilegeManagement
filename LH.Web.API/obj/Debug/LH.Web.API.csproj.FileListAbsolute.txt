@@ -133,3 +133,5 @@ F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\log4net.xml
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\obj\Debug\LH.Web.API.csprojResolveAssemblyReference.cache
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\obj\Debug\LH.Web.API.dll
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\obj\Debug\LH.Web.API.pdb
+F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Integration.WebApi.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Integration.WebApi.xml
