@@ -107,7 +107,6 @@ namespace LH.Application.ServiceImp
             var user = _userRepository.FindSingle(x => x.Id == userId);
             if (user != null)
             {
-                _userRoleRepository.Delete(user.UserRoles);
                 _userRepository.Delete(user);
                 _userRepository.Commit();
             }
@@ -171,7 +170,7 @@ namespace LH.Application.ServiceImp
                 {
                     if (!list.Exists(x => x.Role.Id == item.Id))
                     {
-                        model.UserRoles.Add(new UserRole(){ RoleId = item.Id, UserId = model.Id });
+                        _userRoleRepository.Add(new UserRole { RoleId = item.Id, UserId = model.Id });
                     }
                 }
 
@@ -179,10 +178,11 @@ namespace LH.Application.ServiceImp
                 {
                     if (!user.Roles.Exists(x => x.Id == item.Id))
                     {
-                        model.UserRoles.Remove(item);
+                        _userRoleRepository.Delete(item);
                     }
                 }
 
+                _userRoleRepository.Commit();
                 _userRepository.Commit();
             }
 
@@ -204,6 +204,11 @@ namespace LH.Application.ServiceImp
             return result;
         }
 
+        public bool Exist(string username, string password)
+        {
+            return _userRepository.FindSingle(u => u.Name == username && u.Password == password) != null;
+        }
+
         private bool IsHasSameName(string name, int userId)
         {
             return !string.IsNullOrWhiteSpace(name) && _userRepository.Find(u=>u.Name ==name && u.Id != userId).Any();
@@ -212,6 +217,9 @@ namespace LH.Application.ServiceImp
         private Expression<Func<User, bool>> BuildExpression(PageInput pageInput)
         {
             Expression<Func<User, bool>> filterExp = user => true;
+            if (string.IsNullOrWhiteSpace(pageInput.Name))
+                return filterExp;
+            
             switch (pageInput.Type)
             {
                 case 0:

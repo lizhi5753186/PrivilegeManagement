@@ -19,28 +19,28 @@ namespace LH.Web.API.Controllers
         }
 
         [HttpGet]
-        [ActionName("GetPermissions")]
-        public OutputBase GetPermission([FromUri] PageInput pageInput)
+        [Route("api/permission/GetPermissions")]
+        public OutputBase GetPermissions([FromUri] PageInput pageInput)
         {
             return _permissionService.GetPermissions(pageInput);
         }
 
         [HttpPost]
-        [ActionName("UpdatePermission")]
+        [Route("api/permission/UpdatePermission")]
         public OutputBase UpdatePermission([FromBody] BaseEntityDto pDto)
         {
             return _permissionService.UpdatePermission(pDto);
         }
 
         [HttpPost]
-        [ActionName("AddPermission")]
+        [Route("api/permission/AddPermission")]
         public OutputBase CreatePermission([FromBody] BaseEntityDto pDto)
         {
             return _permissionService.CreatePermission(pDto);
         }
 
         [HttpPost]
-        [ActionName("RemovePermission")]
+        [Route("api/permission/RemovePermission/{id}")]
         public OutputBase DeletePermission(int id)
         {
             return _permissionService.DeletePermission(id);

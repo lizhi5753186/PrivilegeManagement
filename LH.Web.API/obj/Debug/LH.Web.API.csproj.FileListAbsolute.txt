@@ -84,6 +84,7 @@ F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Antlr3.Runtime.dll
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Configuration.dll
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.dll
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Integration.Mvc.dll
+F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Integration.WebApi.dll
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\EntityFramework.dll
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\EntityFramework.SqlServer.dll
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\LH.Application.dll
@@ -113,6 +114,7 @@ F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\LH.Repository.pdb
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.xml
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Configuration.xml
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Integration.Mvc.xml
+F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Integration.WebApi.xml
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Newtonsoft.Json.xml
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\System.Net.Http.Formatting.xml
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\System.Web.Helpers.xml
@@ -133,5 +135,3 @@ F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\log4net.xml
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\obj\Debug\LH.Web.API.csprojResolveAssemblyReference.cache
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\obj\Debug\LH.Web.API.dll
 F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\obj\Debug\LH.Web.API.pdb
-F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Integration.WebApi.dll
-F:\Study\Front\Web API\PrivilegeManagement\LH.Web.API\bin\Autofac.Integration.WebApi.xml

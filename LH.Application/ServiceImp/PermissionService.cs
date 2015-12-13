@@ -88,7 +88,6 @@ namespace LH.Application.ServiceImp
             var permission = _permissionRepository.FindSingle(p => p.Id == actionId);
             if (permission != null)
             {
-                _rolePermissionRepository.Delete(permission.RolePermissions);
                 _permissionRepository.Delete(permission);
             }
 

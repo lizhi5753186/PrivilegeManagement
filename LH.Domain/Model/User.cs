@@ -25,8 +25,7 @@ namespace LH.Domain.Model
 
         public User()
         {
-            this.UserRoles = new HashSet<UserRole>();
+            this.UserRoles = new List<UserRole>();
         }
-
     }
 }

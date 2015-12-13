@@ -19,49 +19,49 @@ namespace LH.Web.API.Controllers
         }
 
         [HttpGet]
-        [ActionName("GetUsers")]
-        public OutputBase GetUsers([FromUri] PageInput input)
+        [Route("api/user/GetUsers")]
+        public OutputBase GetUsers([FromUri]PageInput input)
         {
             return _userService.GetUsers(input);
         }
 
         [HttpGet]
-        [ActionName("GetUser")]
-        public OutputBase GetUser(int id)
+        [Route("api/user/UserInfo")]
+        public OutputBase GetUserInfo(int id)
         {
             return _userService.GetUser(id);
         }
 
         [HttpPost]
-        [ActionName("AddUser")]
+        [Route("api/user/AddUser")]
         public OutputBase CreateUser([FromBody] UserDto userDto)
         {
             return _userService.AddUser(userDto);
         }
 
         [HttpPost]
-        [ActionName("UpdateUser")]
+        [Route("api/user/UpdateUser")]
         public OutputBase UpdateUser([FromBody] UserDto userDto)
         {
             return _userService.UpdateUser(userDto);
         }
 
         [HttpPost]
-        [ActionName("UpdateRoles")]
+        [Route("api/user/UpdateRoles")]
         public OutputBase UpdateRoles([FromBody] UserDto userDto)
         {
             return _userService.UpdateRoles(userDto);
         }
 
         [HttpPost]
-        [ActionName("DeleteUser")]
+        [Route("api/user/DeleteUser/{id}")]
         public OutputBase DeleteUser(int id)
         {
             return _userService.DeleteUser(id);
         }
 
         [HttpPost]
-        [ActionName("DeleteRole")]
+        [Route("api/user/DeleteRole/{id}/{roleId}")]
         public OutputBase DeleteRole(int id, int roleId)
         {
             return _userService.DeleteRole(id, roleId);

@@ -20,5 +20,7 @@ namespace LH.Application.ServiceContract
         UpdateResult UpdateRoles(UserDto user);
 
         DeleteResult DeleteRole(int userId, int roleId);
+
+        bool Exist(string username, string password);
     }
 }

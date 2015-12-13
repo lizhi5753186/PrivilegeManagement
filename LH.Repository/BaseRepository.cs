@@ -75,11 +75,16 @@ namespace LH.Repository
 
         public void Delete(TEntity entity)
         {
+            DbContext.Entry(entity).State = EntityState.Deleted;
             DbContext.Set<TEntity>().Remove(entity);
         }
 
         public void Delete(ICollection<TEntity> entityCollection)
         {
+            if(entityCollection.Count ==0)
+                return;
+
+            DbContext.Set<TEntity>().Attach(entityCollection.First());
             DbContext.Set<TEntity>().RemoveRange(entityCollection);
         }
 

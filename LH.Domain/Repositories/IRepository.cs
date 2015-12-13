@@ -31,6 +31,7 @@ namespace LH.Domain.Repositories
         /// 批量删除
         /// </summary>
         void Delete(ICollection<TEntity> entityCollection);
+
         void Commit();
     }
 }

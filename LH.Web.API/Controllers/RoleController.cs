@@ -19,28 +19,29 @@ namespace LH.Web.API.Controllers
         }
 
         [HttpGet]
-        [ActionName("GetRoles")]
-        public OutputBase GetRoles([FromUri] RoleInput input)
+        [Route("api/role/GetRoles")]
+        public OutputBase GetRoles([FromUri]RoleInput input)
         {
             return _roleService.GetRoles(input);
         }
 
         [HttpPost]
         [ActionName("AddRole")]
+        [Route("api/role/AddRole")]
         public OutputBase CreateRole([FromBody]RoleDto roleDto)
         {
             return _roleService.CreateRole(roleDto);
         }
 
         [HttpPost]
-        [ActionName("UpdateRole")]
+        [Route("api/role/UpdateRole")]
         public OutputBase UpdateRole([FromBody]RoleDto roleDto)
         {
             return _roleService.UpdateRole(roleDto);
         }
 
         [HttpPost]
-        [ActionName("DeleteRole")]
+        [Route("api/role/DeleteRole/{id}")]
         public OutputBase DeleteRole(int id)
         {
             return _roleService.DeleteRole(id);

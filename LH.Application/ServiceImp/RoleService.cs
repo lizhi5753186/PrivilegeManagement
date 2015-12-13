@@ -32,6 +32,10 @@ namespace LH.Application.ServiceImp
             var filterExp = BuildExpression(input);
 
             var query = _roleRepository.Find(filterExp, r => r.Id, SortOrder.Descending, input.Current, input.Size);
+
+            if (input.UserId > 0)
+                query = query.Where(x => x.UserRoles.Any((z => z.UserId == input.UserId)));
+
             result.Total = _roleRepository.Find(filterExp).Count();
             result.Data = query.Select(roleDto => new RoleDto()
             {
@@ -58,7 +62,8 @@ namespace LH.Application.ServiceImp
 
             var role = new Role()
             {
-                RoleName = roleDto.Name
+                RoleName = roleDto.Name,
+                CreationTime = DateTime.Now
             };
 
             if (roleDto.Permissions != null && roleDto.Permissions.Any())
@@ -123,8 +128,6 @@ namespace LH.Application.ServiceImp
             var role = _roleRepository.FindSingle(r => r.Id == roleId);
             if (role != null)
             {
-                _userRoleRepository.Delete(role.UserRoles);
-                _rolePermissionRepository.Delete(role.RolePermissions);
                 _roleRepository.Delete(role);
             }
 
@@ -143,8 +146,6 @@ namespace LH.Application.ServiceImp
             Expression<Func<Role, bool>> filterExp = x => true;
             if (!string.IsNullOrWhiteSpace(input.Name))
                 filterExp = (x => x.RoleName.Contains(input.Name));
-            if (input.UserId > 0)
-                filterExp = filterExp.And(x => x.UserRoles.Any(z => z.UserId == input.UserId));
 
             return filterExp;
         }

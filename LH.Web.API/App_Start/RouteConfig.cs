@@ -13,6 +13,9 @@ namespace LH.Web.API
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute("Views", "{dir}-{name}", new { controller = "Home", action = "Html" });
+
+            
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
