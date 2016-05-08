@@ -7,8 +7,7 @@ using LH.Application.Dtos;
 using LH.Application.ServiceContract;
 using LH.Domain.Model;
 using LH.Domain.Repositories;
-using LH.Repository;
-using Microsoft.SqlServer.Server;
+
 
 namespace LH.Application.ServiceImp
 {
@@ -70,6 +69,7 @@ namespace LH.Application.ServiceImp
             existUser.Name = user.Name;
             existUser.State = user.State;
             existUser.Email = user.Email;
+            _userRepository.Update(existUser);
             _userRepository.Commit();
             result.IsSaved = true;
             return result;

@@ -57,6 +57,7 @@ namespace LH.Application.ServiceImp
             }
 
             permission.Name = permissionDto.Name;
+            _permissionRepository.Update(permission);
             _permissionRepository.Commit();
             result.IsSaved = true;
             return result;

@@ -90,11 +90,6 @@ namespace LH.Application.ServiceImp
                 result.Message = "ROLE_NOT_EXIST";
                 return result;
             }
-            if (IsExisted(roleDto.Name))
-            {
-                result.Message = "ROLE_NAME_HAS_EXIST";
-                return result;
-            }
 
             if (roleDto.Permissions != null && roleDto.Permissions.Any())
             {
@@ -107,7 +102,7 @@ namespace LH.Application.ServiceImp
                     }
                 }
 
-                foreach (var item in role.RolePermissions)
+                foreach (var item in roleDto.Permissions)
                 {
                     if (!list.Exists(x => x.PermissionId == item.Id))
                     {
@@ -117,6 +112,7 @@ namespace LH.Application.ServiceImp
             }
 
             role.RoleName = roleDto.Name;
+            _roleRepository.Update(role);
             _roleRepository.Commit();
             result.IsSaved = true;
             return result;

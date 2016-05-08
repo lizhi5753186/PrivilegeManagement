@@ -155,13 +155,13 @@
                     return http.get("/api/permission/GetPermissions", params);
                 },
                 "update": function(params) {
-                    return http.put("/api/permission/UpdatePermission", params);
+                    return http.post("/api/permission/UpdatePermission", params);
                 },
                 "create": function(params) {
                     return http.post("/api/permission/AddPermission", params);
                 },
                 "delete": function(id) {
-                    return http.delete("/api/permission/RemovePermission/" + id);
+                    return http.post("/api/permission/RemovePermission/" + id);
                 }
             }
         };
